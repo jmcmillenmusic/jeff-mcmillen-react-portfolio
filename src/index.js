@@ -37,5 +37,6 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 /* 
 Hierarchy:
 index => App => { Header, AboutMe, Portfolio, Contact, Resume, Footer }
+Header => Navigation
 Portfolio => Project (x6) 
 */
