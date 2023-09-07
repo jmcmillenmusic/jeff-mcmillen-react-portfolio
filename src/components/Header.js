@@ -5,7 +5,7 @@ function Header() {
     return (
         <header>
             <h1>Jeff McMillen</h1>
-            <Navigation />
+            {/* <Navigation /> */}
         </header>
     );
 };

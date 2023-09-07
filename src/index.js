@@ -1,7 +1,8 @@
-// Imports React, the ReactDOM, and App.js
+// Imports React, the ReactDOM, App.js, and its corresponding CSS
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import './index.css';
 
 // Renders App.js as the root component
 ReactDOM.render(<App />, document.getElementById('root'));
