@@ -2,6 +2,28 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+body {
+    background-color: #74bee3;
+}
+
+/* Temporary color */
+header {
+    /* background-color: pink; */
+    height: 15vh;
+    display: flex;
+}
+
+h1 {
+    margin: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 400px;
+    height: 60%;
+    font-size: 48px;
+    color: #fdcc06;
+    background-color: #bd202b;
+}
