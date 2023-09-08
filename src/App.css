@@ -11,8 +11,9 @@ body {
 /* Temporary color */
 header {
     /* background-color: pink; */
-    height: 15vh;
+    height: 20vh;
     display: flex;
+    justify-content: space-between;
 }
 
 h1 {
@@ -26,4 +27,69 @@ h1 {
     font-size: 48px;
     color: #fdcc06;
     background-color: #bd202b;
+}
+
+nav {
+    display: flex;
+}
+
+ul {
+    width: 1000px;
+    align-self: center;
+    justify-content: space-evenly;
+    height: 100%;
+}   
+
+li {
+    display: inline-flex;
+    padding: 5%;
+    height: 150px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.outer-hex {
+    background: #f3cc75;
+    /* position: relative; */
+    height: 200px;
+    width: 200px;
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+    display: inline-flex;
+}
+
+.inner-hex {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    top: 10px;
+    left: 10px;
+    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+    z-index: -1;
+}
+
+.hex1 {
+    background: #859d3b;
+    color: #39553c;
+}
+
+.hex2 {
+    background: #39553c;
+    color: #f2ae4b;
+}
+
+.hex3 {
+    background: #a67149;
+    color: #39553c;
+}
+
+.hex4 {
+    background: #f2ae4b;
+    color: #39553c;
+}
+
+.hex5 {
+    background: #827d69;
+    color: #f2ae4b;
 }

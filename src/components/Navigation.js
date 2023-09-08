@@ -4,11 +4,21 @@ function Navigation() {
     return (
         <nav>
             <ul>
-                <li>About Me</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
-                <li>Resume</li>
-                <li>Links</li>
+                <div className="outer-hex">
+                    <li className="inner-hex hex1">About Me</li>
+                </div>
+                <div className="outer-hex">
+                    <li className="inner-hex hex2">Portfolio</li>
+                </div>
+                <div className="outer-hex">
+                    <li className="inner-hex hex3">Contact</li>
+                </div>
+                <div className="outer-hex">
+                    <li className="inner-hex hex4">Resume</li>
+                </div>
+                <div className="outer-hex">
+                    <li className="inner-hex hex5">Links</li>
+                </div>
             </ul>
         </nav>
     );
