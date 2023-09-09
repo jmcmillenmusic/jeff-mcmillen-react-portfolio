@@ -4,8 +4,9 @@ import Navigation from './Navigation';
 function Header() {
     return (
         <header>
-            <h1>JEFF McMILLEN</h1>
+            <h1 className="border1">JEFF McMILLEN</h1>
             <Navigation />
+            <br />
         </header>
     );
 };

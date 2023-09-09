@@ -1,7 +1,7 @@
 // Import all components and the CSS document for all components
 import React from 'react';
 import Header from './components/Header';
-// import AboutMe from './components/AboutMe';
+import AboutMe from './components/AboutMe';
 // import Portfolio from './components/Portfolio';
 // import Contact from './components/Contact';
 // import Resume from './components/Resume';
@@ -13,11 +13,12 @@ function App() {
     return (
         <div>
             <Header />
-            {/* <AboutMe />
-            <Portfolio />
-            <Contact />
-            <Resume />
-            <Footer /> */}
+            <br />
+            <AboutMe />
+            {/* <Portfolio /> */}
+            {/* <Contact /> */}
+            {/* <Resume /> */}
+            {/* <Footer /> */}
         </div>
     );
 };
