@@ -6,6 +6,7 @@
 
 body {
     background-color: #74bee3;
+    height: 100vh;
 }
 
 header {
@@ -15,14 +16,12 @@ header {
 }
 
 h1 {
-    margin: 0 5%;
     display: flex;
     align-items: center;
     justify-content: center;
     align-self: center;
     width: 400px;
-    height: 50%;
-    font-size: 48px;
+    height: 40%;
     color: #fdcc06;
     background-color: #bd202b;
 }
@@ -92,12 +91,8 @@ li {
     color: #f2ae4b;
 }
 
-/* Temporary color */
 .aboutMe {
-    /* background-color: pink; */
-    /* width: 60%; */
     height: 400px;
-    /* display: flex; */
 }
 
 img {

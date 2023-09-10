@@ -3,8 +3,9 @@ import Navigation from './Navigation';
 
 function Header() {
     return (
-        <header>
-            <h1 className="border1">JEFF McMILLEN</h1>
+        <header className="columns">
+            <div className="column is-narrow"></div>
+            <h1 className="border1 is-size-1">JEFF McMILLEN</h1>
             <Navigation />
             <br />
         </header>
