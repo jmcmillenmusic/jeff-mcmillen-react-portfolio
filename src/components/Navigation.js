@@ -1,5 +1,7 @@
+// Imports React
 import React from "react";
 
+// Establishes arrangement of HTML for Navigation component complete with navigation links to be installed once all components are complete
 function Navigation() {
     return (
         <nav>

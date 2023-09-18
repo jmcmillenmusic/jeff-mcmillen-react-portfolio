@@ -96,7 +96,7 @@ li {
     height: 400px;
 }
 
-img {
+.headshot {
     width: 300px;
     height: 375px;
     float: left;
@@ -142,9 +142,38 @@ h2, p {
 }
 
 .border1 {
-    border-style: solid;
-    border-width: 5px;
-    border-color: #f3cc75;
+    border: 5px solid #f3cc75;
+}
+
+/* Allows the projects to wrap in rows */
+.project-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+/* Sets the sizes of all projects in .project-list */
+.projectCard {
+    padding: 5%;
+    width: 40%;
+    height: 40%;
+}
+
+/* Sets image sizes of project images */
+.projectCard img {
+    width: 100%;
+}
+
+/* Sets border color of images for project when the user hovers over them */
+.projectCard img:hover {
+    border: 5px solid #bd202b;
+}
+
+/* Centers the text under each project */
+.projectCard h3 {
+    font-size: 24px;
+    text-align: center;
+    padding: 35px;
 }
 
 /* Makes all projects a single column on really small mobile devices */
