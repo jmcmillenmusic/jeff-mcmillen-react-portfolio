@@ -1,11 +1,13 @@
+// Imports React and the image source for the headshot
 import React from "react";
 import img from '../images/Jeff+Headshot_-001.jpg';
 
+// Establishes arrangement of HTML for AboutMe component complete with headshot and brief bio
 function AboutMe() {
     return (
         <section className="aboutMe">
             <br />
-            <img src={img} alt="Jeff McMillen's Headshot" className="card border1"></img>
+            <img src={img} alt="Jeff McMillen's Headshot" className="card border1 headshot"></img>
             <div className="bio">
                 <h2 className="hex1 border1 is-size-2">
                     About Me
