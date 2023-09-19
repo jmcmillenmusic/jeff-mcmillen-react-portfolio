@@ -1,9 +1,11 @@
+/* Wildcard settings for all items on the page */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* Sets the background color to the whole page */
 body {
     background-color: #74bee3;
     height: 100vh;
@@ -67,6 +69,7 @@ li {
     z-index: -1;
 }
 
+/* Sets the colors for all 5 hexes */
 .hex1 {
     background: #859d3b;
     color: #39553c;
@@ -145,6 +148,11 @@ h2, p {
     border: 5px solid #f3cc75;
 }
 
+.portfolio h2, .contactForm {
+    width: 70%;
+    margin: 0 15%;
+}
+
 /* Allows the projects to wrap in rows */
 .project-list {
     display: flex;
@@ -174,6 +182,38 @@ h2, p {
     font-size: 24px;
     text-align: center;
     padding: 35px;
+}
+
+form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    height: 400px;
+}
+
+label {
+    display: flex;
+    height: 25%;
+}
+
+form p {
+    align-self: center;
+}
+
+input {
+    height: 30px;
+    align-self: center;
+    width: 200px;
+}
+
+#email {
+    width: 300px;
+}
+
+textarea {
+    width: 1000px;
+    height: 150px;
+    align-self: center;
 }
 
 /* Makes all projects a single column on really small mobile devices */
