@@ -15,15 +15,10 @@ function App() {
     return (
         <div>
             <Header />
-            <br />
             <AboutMe />
-            <br />
             <Portfolio projects={projects}/>
-            <br />
             <Contact />
-            <br />
             <Resume />
-            <br />
             <Footer />
         </div>
     );

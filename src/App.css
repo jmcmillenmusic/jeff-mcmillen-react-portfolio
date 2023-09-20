@@ -11,12 +11,14 @@ body {
     height: 100vh;
 }
 
+/* Sets the height of the header and separates the h1 from the navigation */
 header {
     height: 20vh;
     display: flex;
     justify-content: space-between;
 }
 
+/* Styles the h1 in the style of the Settlers of Catan box */
 h1 {
     display: flex;
     align-items: center;
@@ -29,18 +31,19 @@ h1 {
     background-color: #bd202b;
 }
 
+/* Styles the navigation links to have room for the hexes around them */
 nav {
     display: flex;
 }
 
-ul {
+nav ul {
     width: 1000px;
     align-self: center;
     justify-content: space-evenly;
     height: 100%;
 }   
 
-li {
+nav li {
     display: inline-flex;
     padding: 5%;
     height: 150px;
@@ -51,6 +54,7 @@ li {
     font-weight: bold;
 }
 
+/* Styles the outer-hex (border) and the inner hex for each of the navigation links */
 .outer-hex {
     background: #f3cc75;
     height: 200px;
@@ -95,10 +99,17 @@ li {
     color: #f2ae4b;
 }
 
+/* Spaces out all sections of the website to take up more room and allows the sections to "breathe" and not feel so constricted */
+header, .aboutMe, .portfolio, .resume, .links {
+    margin: 150px 0;
+}
+
+/* Sets the About Me section's height */
 .aboutMe {
     height: 400px;
 }
 
+/* Sets the size, placement, and rounded corners for the headshot and resume icon */
 .headshot, .resumeIcon {
     width: 300px;
     height: 375px;
@@ -107,12 +118,14 @@ li {
     border-radius: 20px;
 }
 
+/* Sizes the bio and skills sub-sections to allow room for the headshot and resume icon */
 .bio, .skills {
     padding-left: 35%;
     padding-right: 15%;
     
 }
 
+/* Styles all section titles */
 h2 {
     font-size: 36px;
     text-decoration: underline;
@@ -120,15 +133,18 @@ h2 {
     text-align: center;
 }
 
+/* Styles all paragraph elements for legibility*/
 p {
     font-size: 24px;
     font-weight: bold;
 }
 
+/* Gives the section titles and paragraphs more room */
 h2, p {
     padding: 35px;
 }
 
+/* Styles the "card" containing the headshot */
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -148,6 +164,7 @@ h2, p {
     border: 5px solid #f3cc75;
 }
 
+/* Sets the width of all sections except for About Me and Resume */
 .portfolio h2, .contactForm, .links {
     width: 70%;
     margin: 0 15%;
@@ -184,7 +201,7 @@ h2, p {
     padding: 35px;
 }
 
-form {
+/* form {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -194,8 +211,9 @@ form {
 label {
     display: flex;
     height: 25%;
-}
+} */
 
+/* Centers the text in the Contact and Links sections */
 .contactInfo p, .extLinks p {
     text-align: center;
 }
@@ -216,10 +234,12 @@ textarea {
     align-self: center;
 } */
 
+/* Colors the resume icon border when the user hovers over it */
 .resumeIcon:hover {
     border: 5px solid #bd202b;
 }
 
+/* Colors the external links */
 .extLinks a {
     color: #f3cc75;
 }
@@ -229,7 +249,7 @@ textarea {
 }
 
 /* Makes all projects a single column on really small mobile devices */
-@media screen and (max-width: 767px) { 
+/* @media screen and (max-width: 767px) { 
     .project {
         width: 80%;
     }
@@ -237,10 +257,10 @@ textarea {
     h1 {
         text-align: center;
     }
-}
+} */
 
 /* Makes the website mobile-friendly on larger devices */
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     * {
         text-align: center;
     }
@@ -270,4 +290,4 @@ textarea {
         display: block;
         padding: 2%;
     }
-}
+} */
