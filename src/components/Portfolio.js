@@ -10,7 +10,7 @@ import projImg6 from '../images/tech-blog.png';
 // Establishes arrangement of HTML for Portfolio component with cards showing names of projects and links embedded in images
 function Portfolio({ projects }) {
     return (
-        <section className="portfolio">
+        <section className="portfolio" id="portfolio">
             <br />
             <h2 className="hex2 border1">Portfolio</h2>
             <div className="project-list">
