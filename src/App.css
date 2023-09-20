@@ -196,11 +196,11 @@ label {
     height: 25%;
 }
 
-form p {
-    align-self: center;
+.contactInfo p {
+    text-align: center;
 }
 
-input {
+/* input {
     height: 30px;
     align-self: center;
     width: 200px;
@@ -214,7 +214,7 @@ textarea {
     width: 1000px;
     height: 150px;
     align-self: center;
-}
+} */
 
 /* Makes all projects a single column on really small mobile devices */
 @media screen and (max-width: 767px) { 

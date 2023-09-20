@@ -6,7 +6,12 @@ function Contact() {
             <h2 className="hex3 border1">
                 Contact
             </h2>
-            <form className="hex3 border1">
+            <section className="contactInfo hex3 border1">
+                <p>Email: jmcmillenmusic@gmail.com </p>
+                <br />
+                <p>Phone: (817) 690-7632</p>
+            </section>
+            {/* <form className="hex3 border1">
                 <label for="name">
                     <p>Name:</p>
                     <input type="text" name="name" id="name" required/>
@@ -23,7 +28,7 @@ function Contact() {
                     <p>Submit:</p>
                     <input type="submit" name="submit" id="submit"/>
                 </label>
-            </form>
+            </form> */}
         </section>
     )
 };
