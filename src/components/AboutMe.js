@@ -5,7 +5,7 @@ import img from '../images/Jeff+Headshot_-001.jpg';
 // Establishes arrangement of HTML for AboutMe component complete with headshot and brief bio
 function AboutMe() {
     return (
-        <section className="aboutMe">
+        <section className="aboutMe" id="aboutMe">
             <br />
             <img src={img} alt="Jeff McMillen's Headshot" className="card border1 headshot"></img>
             <div className="bio">

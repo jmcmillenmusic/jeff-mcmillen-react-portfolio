@@ -7,19 +7,19 @@ function Navigation() {
         <nav>
             <ul>
                 <div className="outer-hex">
-                    <li className="inner-hex hex1">About Me</li>
+                    <a href="#aboutMe"><li className="inner-hex hex1">About Me</li></a>
                 </div>
                 <div className="outer-hex">
-                    <li className="inner-hex hex2">Portfolio</li>
+                    <a href="#portfolio"><li className="inner-hex hex2">Portfolio</li></a>
                 </div>
                 <div className="outer-hex">
-                    <li className="inner-hex hex3">Contact</li>
+                    <a href="#contact"><li className="inner-hex hex3">Contact</li></a>
                 </div>
                 <div className="outer-hex">
-                    <li className="inner-hex hex4">Resume</li>
+                    <a href="#resume"><li className="inner-hex hex4">Resume</li></a>
                 </div>
                 <div className="outer-hex">
-                    <li className="inner-hex hex5">Links</li>
+                    <a href="#links"><li className="inner-hex hex5">Links</li></a>
                 </div>
             </ul>
         </nav>

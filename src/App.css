@@ -201,38 +201,10 @@ h2, p {
     padding: 35px;
 }
 
-/* form {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    height: 400px;
-}
-
-label {
-    display: flex;
-    height: 25%;
-} */
-
 /* Centers the text in the Contact and Links sections */
 .contactInfo p, .extLinks p {
     text-align: center;
 }
-
-/* input {
-    height: 30px;
-    align-self: center;
-    width: 200px;
-}
-
-#email {
-    width: 300px;
-}
-
-textarea {
-    width: 1000px;
-    height: 150px;
-    align-self: center;
-} */
 
 /* Colors the resume icon border when the user hovers over it */
 .resumeIcon:hover {
