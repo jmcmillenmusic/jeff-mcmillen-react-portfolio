@@ -7,10 +7,10 @@ function Contact() {
                 Contact
             </h2>
             <section className="contactInfo hex3 border1">
-                <p>Email: jmcmillenmusic@gmail.com </p>
-                <br />
+                <p>Email: jmcmillenmusic@gmail.com</p>
                 <p>Phone: (817) 690-7632</p>
             </section>
+            <br />
             {/* <form className="hex3 border1">
                 <label for="name">
                     <p>Name:</p>

@@ -99,7 +99,7 @@ li {
     height: 400px;
 }
 
-.headshot {
+.headshot, .resumeIcon {
     width: 300px;
     height: 375px;
     float: left;
@@ -107,7 +107,7 @@ li {
     border-radius: 20px;
 }
 
-.bio {
+.bio, .skills {
     padding-left: 35%;
     padding-right: 15%;
     
@@ -215,6 +215,10 @@ textarea {
     height: 150px;
     align-self: center;
 } */
+
+.resumeIcon:hover {
+    border: 5px solid #bd202b;
+}
 
 /* Makes all projects a single column on really small mobile devices */
 @media screen and (max-width: 767px) { 
