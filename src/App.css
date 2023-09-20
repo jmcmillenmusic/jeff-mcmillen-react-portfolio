@@ -148,7 +148,7 @@ h2, p {
     border: 5px solid #f3cc75;
 }
 
-.portfolio h2, .contactForm {
+.portfolio h2, .contactForm, .links {
     width: 70%;
     margin: 0 15%;
 }
@@ -196,7 +196,7 @@ label {
     height: 25%;
 }
 
-.contactInfo p {
+.contactInfo p, .extLinks p {
     text-align: center;
 }
 
@@ -218,6 +218,14 @@ textarea {
 
 .resumeIcon:hover {
     border: 5px solid #bd202b;
+}
+
+.extLinks a {
+    color: #f3cc75;
+}
+
+.extLinks a:hover {
+    color: #bd202b;
 }
 
 /* Makes all projects a single column on really small mobile devices */
