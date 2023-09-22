@@ -13,9 +13,10 @@ body {
 
 /* Sets the height of the header and separates the h1 from the navigation */
 header {
-    height: 20vh;
+    height: 400px;
     display: flex;
-    justify-content: space-between;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }
 
 /* Styles the h1 in the style of the Settlers of Catan box */
@@ -23,9 +24,8 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    align-self: center;
     width: 400px;
-    height: 50%;
+    height: 200px;
     font-size: 48px;
     color: #fdcc06;
     background-color: #bd202b;
@@ -100,7 +100,7 @@ nav li {
 }
 
 /* Spaces out all sections of the website to take up more room and allows the sections to "breathe" and not feel so constricted */
-header, .aboutMe, .portfolio, .resume, .links {
+header, .portfolio, .resume, .links {
     margin: 150px 0;
 }
 
@@ -220,46 +220,69 @@ h2, p {
     color: #bd202b;
 }
 
-/* Makes all projects a single column on really small mobile devices */
-/* @media screen and (max-width: 767px) { 
-    .project {
-        width: 80%;
+@media screen and (max-width: 400px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    
+    h1, nav {
+        width: 100%;
+        /* margin: auto; */
+        /* height: 300px; */
+    }
+    
+    .outer-hex {
+        height: 150px;
+        width: 150px;
     }
 
-    h1 {
-        text-align: center;
+    .inner-hex {
+        height: 125px;
+        width: 125px;
+        top: 12px;
+        left: 12px;
     }
-} */
+}
+
+@media screen and (max-width: 550px) {
+    
+}
+
+/* Makes all projects a single column on really small mobile devices */
+@media screen and (max-width: 767px) { 
+    /* header {
+        height: 600px;
+    } */
+
+    /* h1, nav {
+        justify-content: center;
+    } */
+    
+    /* .project {
+        width: 80%;
+    } */
+
+    /* h1 {
+        text-align: center;
+    } */
+}
 
 /* Makes the website mobile-friendly on larger devices */
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     * {
         text-align: center;
     }
-    
-    nav {
-        flex-flow: column wrap;
+
+    header {
+        flex-flow: column;
+        margin: 75px 0px;
+        height: 500px;
     }
 
-    nav ul {
-        display: flex;
+    h1 {
+        align-self: center;
     }
-
-    nav ul li {
-        display: flex;
-        padding: 5%;
-    }
-    
-    .about-me img {
-        float: none;
-    }
-
-    .bio-text {
-        text-indent: 0%;
-    }
-
-    .contact ul {
-        display: block;
-        padding: 2%;
-    }
-} */
+}
