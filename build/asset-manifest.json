@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/jeff-mcmillen-react-portfolio/static/css/main.0736d9e0.css",
+    "main.js": "/jeff-mcmillen-react-portfolio/static/js/main.2ba313a6.js",
+    "static/media/Jeff+Headshot_-001.jpg": "/jeff-mcmillen-react-portfolio/static/media/Jeff+Headshot_-001.7302748799aeb5d85a23.jpg",
+    "static/media/emp-tracker.png": "/jeff-mcmillen-react-portfolio/static/media/emp-tracker.6dac1fbe80839da29a6d.png",
+    "static/media/chronoscape.jpg": "/jeff-mcmillen-react-portfolio/static/media/chronoscape.b8418bbde407316dc736.jpg",
+    "static/media/social-network-api.png": "/jeff-mcmillen-react-portfolio/static/media/social-network-api.67d5d147524af28d1df1.png",
+    "static/media/ecommerce.png": "/jeff-mcmillen-react-portfolio/static/media/ecommerce.e776a9256e84bbeed0b5.png",
+    "static/media/McMillen_Jeff_WebDev_Resume_v.1.0.pdf": "/jeff-mcmillen-react-portfolio/static/media/McMillen_Jeff_WebDev_Resume_v.1.0.fa26bba2c5b9415bcc0a.pdf",
+    "static/media/earth.jpg": "/jeff-mcmillen-react-portfolio/static/media/earth.5113e47a729c10783bd7.jpg",
+    "static/media/tech-blog.png": "/jeff-mcmillen-react-portfolio/static/media/tech-blog.611972f866d6cade9f2c.png",
+    "static/media/resume-icon.png": "/jeff-mcmillen-react-portfolio/static/media/resume-icon.92927870b2601a4a340c.png",
+    "index.html": "/jeff-mcmillen-react-portfolio/index.html",
+    "main.0736d9e0.css.map": "/jeff-mcmillen-react-portfolio/static/css/main.0736d9e0.css.map",
+    "main.2ba313a6.js.map": "/jeff-mcmillen-react-portfolio/static/js/main.2ba313a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0736d9e0.css",
+    "static/js/main.2ba313a6.js"
+  ]
+}
