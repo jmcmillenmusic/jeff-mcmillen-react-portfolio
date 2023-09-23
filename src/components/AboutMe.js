@@ -6,7 +6,6 @@ import img from '../images/Jeff+Headshot_-001.jpg';
 function AboutMe() {
     return (
         <section className="aboutMe" id="aboutMe">
-            <br />
             <img src={img} alt="Jeff McMillen's Headshot" className="card border1 headshot"></img>
             <div className="bio">
                 <h2 className="hex1 border1 is-size-2">
