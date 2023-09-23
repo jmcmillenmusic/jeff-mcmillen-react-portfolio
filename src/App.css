@@ -272,7 +272,7 @@ h2, p {
         left: 12px;
     }
 
-    .aboutMe, .portfolio, .contactForm {
+    .aboutMe, .portfolio, .contactForm, .resume {
         display: flex;
         flex-direction: column;
         margin: 75px 0;
@@ -282,11 +282,11 @@ h2, p {
         height: fit-content;
     }
 
-    .headshot {
+    .headshot, .resumeIcon {
         margin: 20px auto;
     }
 
-    .bio, .contactForm {
+    .bio, .contactForm, .skills {
         padding: 0%;
         width: 90%;
         margin: auto;
@@ -301,5 +301,9 @@ h2, p {
         margin: 30px 0;
         width: 85%;
         margin: auto;
+    }
+    
+    .resumeIcon {
+        float: none;
     }
 }
