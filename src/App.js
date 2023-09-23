@@ -19,7 +19,7 @@ function App() {
             <Portfolio projects={projects}/>
             <Contact />
             <Resume />
-            {/* <Footer /> */}
+            <Footer />
         </div>
     );
 };

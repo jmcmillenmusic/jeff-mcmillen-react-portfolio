@@ -224,7 +224,7 @@ h2, p {
     color: #bd202b;
 }
 
-/* Makes all projects a single column on small mobile devices */
+/* Makes all projects a single column on smaller mobile devices */
 @media screen and (max-width: 767px) { 
     header {
         width: 100%;
@@ -232,6 +232,10 @@ h2, p {
     
     .name {
         width: 100%;
+    }
+
+    .extLinks p {
+        font-size: 18px;
     }
 }
 
@@ -272,7 +276,7 @@ h2, p {
         left: 12px;
     }
 
-    .aboutMe, .portfolio, .contactForm, .resume {
+    .aboutMe, .portfolio, .contactForm, .resume, .links {
         display: flex;
         flex-direction: column;
         margin: 75px 0;
@@ -286,7 +290,7 @@ h2, p {
         margin: 20px auto;
     }
 
-    .bio, .contactForm, .skills {
+    .bio, .contactForm, .skills, .links {
         padding: 0%;
         width: 90%;
         margin: auto;
@@ -305,5 +309,16 @@ h2, p {
     
     .resumeIcon {
         float: none;
+    }
+}
+
+/* Reduces margin for headshot, resumeIcon, bio, and skills with larger screens  */
+@media screen and (min-width: 1025px) and (max-width: 1500px) {
+    .headshot, .resumeIcon {
+        margin-left: 5%;
+    }
+
+    .bio, .skills {
+        margin-right: 5%;
     }
 }
