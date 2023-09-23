@@ -242,6 +242,7 @@ h2, p {
     }
 
     .app {
+        display: flex;
         flex-flow: column;
         width: 100%;
     }
@@ -271,9 +272,14 @@ h2, p {
         left: 12px;
     }
 
-    .aboutMe {
+    .aboutMe, .portfolio {
         display: flex;
         flex-direction: column;
+        margin: 75px 0;
+    }
+
+    .aboutMe {
+        height: fit-content;
     }
 
     .headshot {
@@ -283,6 +289,17 @@ h2, p {
     .bio {
         padding: 0%;
         width: 90%;
+        margin: auto;
+    }
+
+    .portfolio h2 {
+        width: 90%;
+        margin: auto;
+    }
+
+    .projectCard {
+        margin: 30px 0;
+        width: 85%;
         margin: auto;
     }
 }
