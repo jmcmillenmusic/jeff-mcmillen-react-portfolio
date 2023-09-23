@@ -272,7 +272,7 @@ h2, p {
         left: 12px;
     }
 
-    .aboutMe, .portfolio {
+    .aboutMe, .portfolio, .contactForm {
         display: flex;
         flex-direction: column;
         margin: 75px 0;
@@ -286,7 +286,7 @@ h2, p {
         margin: 20px auto;
     }
 
-    .bio {
+    .bio, .contactForm {
         padding: 0%;
         width: 90%;
         margin: auto;
