@@ -11,7 +11,6 @@ import projImg6 from '../images/tech-blog.png';
 function Portfolio({ projects }) {
     return (
         <section className="portfolio" id="portfolio">
-            <br />
             <h2 className="hex2 border1">Portfolio</h2>
             <div className="project-list">
                 <div className="projectCard">

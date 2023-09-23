@@ -13,7 +13,7 @@ import projects from './projectList';
 // Establishes arrangement of components on the page
 function App() {
     return (
-        <div>
+        <div className='app'>
             <Header />
             <AboutMe />
             <Portfolio projects={projects}/>

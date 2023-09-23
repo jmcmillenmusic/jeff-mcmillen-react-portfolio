@@ -9,8 +9,8 @@ function Footer() {
                 Links
             </h2>
             <section className="extLinks hex5 border1">
-                <p>LinkedIn: <a href="https://www.linkedin.com/in/jmcmillencode/" target="_blank" rel="noreferrer">https://www.linkedin.com/in/jmcmillencode/</a></p>
-                <p>GitHub: <a href="https://github.com/jmcmillenmusic" target="_blank" rel="noreferrer">https://github.com/jmcmillenmusic</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/jmcmillencode/" target="_blank" rel="noreferrer">www.linkedin.com/in/jmcmillencode/</a></p>
+                <p>GitHub: <a href="https://github.com/jmcmillenmusic" target="_blank" rel="noreferrer">www.github.com/jmcmillenmusic</a></p>
             </section>
         </footer>
     )

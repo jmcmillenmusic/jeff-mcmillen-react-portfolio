@@ -17,6 +17,7 @@ header {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    align-content: center;
 }
 
 /* Styles the h1 in the style of the Settlers of Catan box */
@@ -100,7 +101,11 @@ nav li {
 }
 
 /* Spaces out all sections of the website to take up more room and allows the sections to "breathe" and not feel so constricted */
-header, .portfolio, .resume, .links {
+header {
+    margin-top: 75px;
+}
+
+.aboutMe, .portfolio, .resume, .links {
     margin: 150px 0;
 }
 
@@ -120,9 +125,8 @@ header, .portfolio, .resume, .links {
 
 /* Sizes the bio and skills sub-sections to allow room for the headshot and resume icon */
 .bio, .skills {
-    padding-left: 35%;
-    padding-right: 15%;
-    
+    margin-left: 35%;
+    margin-right: 15%;
 }
 
 /* Styles all section titles */
@@ -220,20 +224,46 @@ h2, p {
     color: #bd202b;
 }
 
-@media screen and (max-width: 400px) {
+/* Makes all projects a single column on smaller mobile devices */
+@media screen and (max-width: 767px) { 
     header {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto;
-    }
-    
-    h1, nav {
         width: 100%;
-        /* margin: auto; */
-        /* height: 300px; */
     }
     
+    .name {
+        width: 100%;
+    }
+
+    .extLinks p {
+        font-size: 18px;
+    }
+}
+
+/* Makes the website mobile-friendly on larger devices */
+@media screen and (max-width: 1024px) {
+    * {
+        text-align: center;
+    }
+
+    .app {
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+    }
+
+    header {
+        flex-flow: column;
+        margin-top: 25px;
+        height: 50%;
+    }
+
+    .name {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        align-items: center;
+    }
+
     .outer-hex {
         height: 150px;
         width: 150px;
@@ -245,44 +275,50 @@ h2, p {
         top: 12px;
         left: 12px;
     }
-}
 
-@media screen and (max-width: 550px) {
-    
-}
-
-/* Makes all projects a single column on really small mobile devices */
-@media screen and (max-width: 767px) { 
-    /* header {
-        height: 600px;
-    } */
-
-    /* h1, nav {
-        justify-content: center;
-    } */
-    
-    /* .project {
-        width: 80%;
-    } */
-
-    /* h1 {
-        text-align: center;
-    } */
-}
-
-/* Makes the website mobile-friendly on larger devices */
-@media screen and (max-width: 1024px) {
-    * {
-        text-align: center;
+    .aboutMe, .portfolio, .contactForm, .resume, .links {
+        display: flex;
+        flex-direction: column;
+        margin: 75px 0;
     }
 
-    header {
-        flex-flow: column;
-        margin: 75px 0px;
-        height: 500px;
+    .aboutMe {
+        height: fit-content;
     }
 
-    h1 {
-        align-self: center;
+    .headshot, .resumeIcon {
+        margin: 20px auto;
+    }
+
+    .bio, .contactForm, .skills, .links {
+        padding: 0%;
+        width: 90%;
+        margin: auto;
+    }
+
+    .portfolio h2 {
+        width: 90%;
+        margin: auto;
+    }
+
+    .projectCard {
+        margin: 30px 0;
+        width: 85%;
+        margin: auto;
+    }
+    
+    .resumeIcon {
+        float: none;
+    }
+}
+
+/* Reduces margin for headshot, resumeIcon, bio, and skills with larger screens  */
+@media screen and (min-width: 1025px) and (max-width: 1500px) {
+    .headshot, .resumeIcon {
+        margin-left: 5%;
+    }
+
+    .bio, .skills {
+        margin-right: 5%;
     }
 }

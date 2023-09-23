@@ -6,7 +6,9 @@ import Navigation from './Navigation';
 function Header() {
     return (
         <header>
-            <h1 className="border1">JEFF McMILLEN</h1>
+            <div className="name">
+                <h1 className="border1">JEFF McMILLEN</h1>
+            </div>
             <Navigation />
         </header>
     );
