@@ -12,8 +12,7 @@ function Footer() {
             </h2>
             <section className="extLinks hex5 border1">
                 <p>LinkedIn: <a href="https://www.linkedin.com/in/jmcmillencode/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="Blue square LinkedIn Logo"></img></a></p>
-                <p>GitHub: <a href="https://github.com/jmcmillenmusic" target="_blank" rel="noreferrer"><img src={github} alt="Blue circle GitHub Logo"></img></a></p>
-                
+                <p>GitHub: <a href="https://github.com/jmcmillenmusic" target="_blank" rel="noopener noreferrer"><img src={github} alt="Blue circle GitHub Logo"></img></a></p>
             </section>
         </footer>
     )

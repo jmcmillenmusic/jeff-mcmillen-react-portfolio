@@ -111,7 +111,7 @@ header {
 
 /* Sets the About Me section's height */
 .aboutMe {
-    height: 400px;
+    height: 450px;
 }
 
 /* Sets the size, placement, and rounded corners for the headshot and resume icon */
@@ -166,6 +166,15 @@ h2, p {
 
 .border1 {
     border: 5px solid #f3cc75;
+}
+
+/* Colors the links in the About Me section */
+.aboutMe a {
+    color: #fdcc06;
+}
+
+.aboutMe a:hover {
+    color: #bd202b;
 }
 
 /* Sets the width of all sections except for About Me and Resume */
