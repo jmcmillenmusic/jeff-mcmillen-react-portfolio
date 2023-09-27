@@ -111,7 +111,7 @@ header {
 
 /* Sets the About Me section's height */
 .aboutMe {
-    height: 400px;
+    height: 450px;
 }
 
 /* Sets the size, placement, and rounded corners for the headshot and resume icon */
@@ -168,6 +168,15 @@ h2, p {
     border: 5px solid #f3cc75;
 }
 
+/* Colors the links in the About Me section */
+.aboutMe a {
+    color: #fdcc06;
+}
+
+.aboutMe a:hover {
+    color: #bd202b;
+}
+
 /* Sets the width of all sections except for About Me and Resume */
 .portfolio h2, .contactForm, .links {
     width: 70%;
@@ -205,8 +214,8 @@ h2, p {
     padding: 35px;
 }
 
-/* Centers the text in the Contact and Links sections */
-.contactInfo p, .extLinks p {
+/* Centers the text in the Contact section */
+.contactInfo p {
     text-align: center;
 }
 
@@ -215,13 +224,20 @@ h2, p {
     border: 5px solid #bd202b;
 }
 
-/* Colors the external links */
-.extLinks a {
-    color: #f3cc75;
+/* Centers the text in the Links section with their icons */
+.extLinks p {
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
 
-.extLinks a:hover {
-    color: #bd202b;
+/* Resizes the icons and links */
+.extLinks a {
+    max-height: 48px;
+}
+
+.extLinks img {
+    max-width: 48px;
 }
 
 /* Makes all projects a single column on smaller mobile devices */
