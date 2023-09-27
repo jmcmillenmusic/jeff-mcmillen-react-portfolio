@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jeff-mcmillen-react-portfolio/static/css/main.3e2c62ef.css",
-    "main.js": "/jeff-mcmillen-react-portfolio/static/js/main.e0931227.js",
+    "main.css": "/jeff-mcmillen-react-portfolio/static/css/main.786c2afd.css",
+    "main.js": "/jeff-mcmillen-react-portfolio/static/js/main.ef315053.js",
     "static/media/Jeff+Headshot_-001.jpg": "/jeff-mcmillen-react-portfolio/static/media/Jeff+Headshot_-001.7302748799aeb5d85a23.jpg",
     "static/media/emp-tracker.png": "/jeff-mcmillen-react-portfolio/static/media/emp-tracker.6dac1fbe80839da29a6d.png",
     "static/media/chronoscape.jpg": "/jeff-mcmillen-react-portfolio/static/media/chronoscape.b8418bbde407316dc736.jpg",
@@ -10,13 +10,15 @@
     "static/media/McMillen_Jeff_WebDev_Resume_v.1.0.pdf": "/jeff-mcmillen-react-portfolio/static/media/McMillen_Jeff_WebDev_Resume_v.1.0.f50d7fe7d9e9209dfe42.pdf",
     "static/media/earth.jpg": "/jeff-mcmillen-react-portfolio/static/media/earth.5113e47a729c10783bd7.jpg",
     "static/media/tech-blog.png": "/jeff-mcmillen-react-portfolio/static/media/tech-blog.611972f866d6cade9f2c.png",
+    "static/media/github.png": "/jeff-mcmillen-react-portfolio/static/media/github.f85f62e3d85ac9628065.png",
+    "static/media/linkedin.png": "/jeff-mcmillen-react-portfolio/static/media/linkedin.ae13e3982d2911a2d922.png",
     "static/media/resume-icon.png": "/jeff-mcmillen-react-portfolio/static/media/resume-icon.92927870b2601a4a340c.png",
     "index.html": "/jeff-mcmillen-react-portfolio/index.html",
-    "main.3e2c62ef.css.map": "/jeff-mcmillen-react-portfolio/static/css/main.3e2c62ef.css.map",
-    "main.e0931227.js.map": "/jeff-mcmillen-react-portfolio/static/js/main.e0931227.js.map"
+    "main.786c2afd.css.map": "/jeff-mcmillen-react-portfolio/static/css/main.786c2afd.css.map",
+    "main.ef315053.js.map": "/jeff-mcmillen-react-portfolio/static/js/main.ef315053.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e2c62ef.css",
-    "static/js/main.e0931227.js"
+    "static/css/main.786c2afd.css",
+    "static/js/main.ef315053.js"
   ]
 }
