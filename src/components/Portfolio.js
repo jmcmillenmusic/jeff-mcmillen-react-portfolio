@@ -17,7 +17,7 @@ function Portfolio({ projects }) {
                     <h3 className="hex2 border1">
                         Chronoscape
                     </h3>
-                    <a href="https://github.com/jmcmillenmusic/chronoscape" target="_blank" rel="noopener noreferrer"><img src={projImg1} alt="Open portal with lights streaming out from it" className="hex2 border1"></img></a>
+                    <a href="https://chronoscape-g3-dd74e8283e15.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src={projImg1} alt="Open portal with lights streaming out from it" className="hex2 border1"></img></a>
                     <p className="hex2 border1">Choose-your-own-adventure game where you are a Multiverse Protection Force (MPF) agent sent to track down another MPF agent who has gone rogue
                     <br /><br />
                     <u>Technologies Utilized</u>: Structured Query Language (SQL), Sequelize.js, Handlebars.js, ESLint, JavaScript</p>
