@@ -53,6 +53,7 @@ nav li {
     justify-content: center;
     font-size: 24px;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 /* Styles the outer-hex (border) and the inner hex for each of the navigation links */
@@ -132,7 +133,6 @@ header {
 /* Styles all section titles */
 h2 {
     font-size: 36px;
-    text-decoration: underline;
     font-weight: bold;
     text-align: center;
 }
@@ -202,16 +202,20 @@ h2, p {
     width: 100%;
 }
 
-/* Sets border color of images for project when the user hovers over them */
-.projectCard img:hover {
-    border: 5px solid #bd202b;
-}
-
 /* Centers the text under each project */
 .projectCard h3 {
     font-size: 24px;
     text-align: center;
     padding: 35px;
+}
+
+/* Sets color of underlined project names*/
+.projectCard a {
+    color: #fdcc06;
+}
+
+.projectCard a:hover {
+    color: #bd202b;
 }
 
 /* Centers the text in the Contact section */
