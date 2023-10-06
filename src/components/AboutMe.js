@@ -8,7 +8,7 @@ function AboutMe() {
         <section className="aboutMe" id="aboutMe">
             <img src={img} alt="Jeff McMillen's Headshot" className="card border1 headshot"></img>
             <div className="bio">
-                <h2 className="hex1 border1 is-size-2">
+                <h2 className="hex1 border1">
                     About Me
                 </h2>
                 <p className="hex1 border1">
