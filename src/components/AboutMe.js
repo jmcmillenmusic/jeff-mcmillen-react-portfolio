@@ -12,7 +12,7 @@ function AboutMe() {
                     About Me
                 </h2>
                 <p className="hex1 border1">
-                I'm Jeff McMillen, a recent full-stack web development bootcamp graduate in Austin, TX who focuses on back-end development and specializes in database management and administration. I utilize SQL, MySQL, and MongoDB to create structured but flexible databases.<br /><br />You can find me on <a href="https://www.linkedin.com/in/jmcmillencode/" target="_blank" rel="noopener noreferrer">LinkedIn</a> and <a href="https://github.com/jmcmillenmusic" target="_blank" rel="noopener noreferrer">GitHub</a>.
+                I'm Jeff McMillen, a recent full-stack web development bootcamp graduate in Austin, TX. I've equipped myself with these coding skills in order to use technology to solve people's problems. I believe that technology should not hinder our progress but should instead improve our quality of life, and I strive to do exactly that.<br /><br />I focus on back-end development and specialize in database management and administration by utilizing tools/languages such as SQL, MySQL, and MongoDB to create structured but flexible databases.<br /><br />You can find me on <a href="https://www.linkedin.com/in/jmcmillencode/" target="_blank" rel="noopener noreferrer">LinkedIn</a> and <a href="https://github.com/jmcmillenmusic" target="_blank" rel="noopener noreferrer">GitHub</a>.
                 </p>
             </div>
         </section>
