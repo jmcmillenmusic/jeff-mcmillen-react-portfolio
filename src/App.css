@@ -198,7 +198,7 @@ h2, p {
 }
 
 /* Sets image sizes of project images */
-.projectCard img {
+.screenshot {
     width: 100%;
 }
 
@@ -216,6 +216,12 @@ h2, p {
 
 .projectCard a:hover {
     color: #bd202b;
+}
+
+/* Resizes the GitHub icon in the project cards */
+.icon {
+    max-width: 48px;
+    max-height: 48px;
 }
 
 /* Centers the text in the Contact section */
