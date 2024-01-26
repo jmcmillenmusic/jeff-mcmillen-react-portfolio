@@ -2,7 +2,7 @@
 
 ## Description
 
-As a back-end web developer (MERN Stack) focusing on databases, I must put my best foot forward for potential employers by creating a new portfolio using React and showcasing my best back-end work. This portfolio is the culmination of my work so far.
+As a full-stack web developer (MERN Stack), I must put my best foot forward for potential employers by creating a new portfolio using React and showcasing my best full-stack work. This portfolio is the culmination of my work so far.
 
 ## Installation
 
