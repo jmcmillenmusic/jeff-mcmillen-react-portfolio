@@ -20,7 +20,7 @@ header {
     align-content: center;
 }
 
-/* Styles the h1 in the style of the Settlers of Catan box */
+/* Styles the h1 in the style of the Settlers of Catan box and adds a shadow*/
 h1 {
     display: flex;
     align-items: center;
@@ -30,6 +30,7 @@ h1 {
     font-size: 48px;
     color: #fdcc06;
     background-color: #bd202b;
+    box-shadow: 10px 10px 5px black;
 }
 
 /* Styles the navigation links to have room for the hexes around them */
@@ -115,19 +116,21 @@ header {
     height: 450px;
 }
 
-/* Sets the size, placement, and rounded corners for the headshot and resume icon */
+/* Sets the size, placement, rounded corners, and shadows for the headshot and resume icon */
 .headshot, .resumeIcon {
     width: 300px;
     height: 375px;
     float: left;
     margin-left: 15%;
     border-radius: 20px;
+    box-shadow: 10px 10px 5px black;
 }
 
-/* Sizes the bio and skills sub-sections to allow room for the headshot and resume icon */
+/* Sizes the bio and skills sub-sections to allow room for the headshot and resume icon and adds shadows to them */
 .bio, .skills {
     margin-left: 35%;
     margin-right: 15%;
+    box-shadow: 10px 10px 5px black;
 }
 
 /* Styles all section titles */
@@ -150,14 +153,13 @@ h2, p {
 
 /* Styles the "card" containing the headshot */
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 10px 10px 5px black;
     transition: 0.3s;
-    /* width: 40%; */
     border-radius: 5px;
 }
   
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 20px 20px 10px black;
 }
 
 .container {
@@ -177,10 +179,11 @@ h2, p {
     color: #bd202b;
 }
 
-/* Sets the width of all sections except for About Me and Resume */
+/* Sets the width of all sections except for About Me and Resume and adds shadows */
 .portfolio h2, .contactForm, .links {
     width: 70%;
     margin: 0 15%;
+    box-shadow: 10px 10px 5px black;
 }
 
 /* Allows the projects to wrap in rows */
@@ -197,16 +200,18 @@ h2, p {
     height: 40%;
 }
 
-/* Sets image sizes of project images */
+/* Sets image sizes of project images and creates space to see shadows*/
 .screenshot {
     width: 100%;
+    margin-bottom: 10px;
 }
 
-/* Centers the text under each project */
+/* Centers the text under each project and evens out the spacing between all elements of each project card*/
 .projectCard h3 {
     font-size: 24px;
     text-align: center;
     padding: 35px;
+    margin-bottom: 15px;
 }
 
 /* Sets color of underlined project names*/
@@ -216,6 +221,11 @@ h2, p {
 
 .projectCard a:hover {
     color: #bd202b;
+}
+
+/* Adds a shadow to all project cards */
+.screenshot, .projectCard h3, .projectCard p {
+    box-shadow: 10px 10px 5px black;
 }
 
 /* Resizes the GitHub icon in the project cards */
@@ -229,9 +239,11 @@ h2, p {
     text-align: center;
 }
 
-/* Colors the resume icon border when the user hovers over it */
+/* Colors the resume icon border and enlarges the shadow when the user hovers over it */
 .resumeIcon:hover {
     border: 5px solid #bd202b;
+    box-shadow: 20px 20px 10px black;
+    transition: 0.3s;
 }
 
 /* Centers the text in the Links section with their icons */
