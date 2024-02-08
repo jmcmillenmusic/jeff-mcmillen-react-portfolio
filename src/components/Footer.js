@@ -1,4 +1,4 @@
-// Imports React
+// Imports React, the LinkedIn image, and the GitHub image
 import React from "react";
 import linkedin from "../images/linkedin.png";
 import github from "../images/github.png";

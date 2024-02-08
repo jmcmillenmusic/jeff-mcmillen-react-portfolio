@@ -1,8 +1,9 @@
-/* Wildcard settings for all items on the page */
+/* Wildcard settings for all items on the page, and smooths out scrolling */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 /* Sets the background color to the whole page */
@@ -57,13 +58,12 @@ nav li {
     text-decoration: underline;
 }
 
-/* Styles the outer-hex (border) and the inner hex for each of the navigation links */
+/* Styles the outer-hex (border), the inner hex, and the hex-shadow for each of the navigation links */
 .outer-hex {
     background: #f3cc75;
     height: 200px;
     width: 200px;
     clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
-    display: inline-flex;
 }
 
 .inner-hex {
@@ -74,6 +74,11 @@ nav li {
     left: 10px;
     clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
     z-index: -1;
+}
+
+.hex-shadow {
+    filter: drop-shadow(10px 10px 5px black);
+    display: inline-flex;
 }
 
 /* Sets the colors for all 5 hexes */
@@ -311,7 +316,7 @@ h2, p {
         height: 125px;
         width: 125px;
         top: 12px;
-        left: 12px;
+        left: 0px;
     }
 
     .aboutMe, .portfolio, .contactForm, .resume, .links {
