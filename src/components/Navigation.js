@@ -6,20 +6,30 @@ function Navigation() {
     return (
         <nav>
             <ul>
-                <div className="outer-hex">
-                    <a href="#aboutMe"><li className="inner-hex hex1">About Me</li></a>
+                <div className="hex-shadow">
+                    <div className="outer-hex">
+                        <a href="#aboutMe"><li className="inner-hex hex1">About Me</li></a>
+                    </div>
                 </div>
-                <div className="outer-hex">
-                    <a href="#portfolio"><li className="inner-hex hex2">Portfolio</li></a>
+                <div className="hex-shadow">
+                    <div className="outer-hex">
+                        <a href="#portfolio"><li className="inner-hex hex2">Portfolio</li></a>
+                    </div>
                 </div>
-                <div className="outer-hex">
-                    <a href="#contact"><li className="inner-hex hex3">Contact</li></a>
+                <div className="hex-shadow">
+                    <div className="outer-hex">
+                        <a href="#contact"><li className="inner-hex hex3">Contact</li></a>
+                    </div>
                 </div>
-                <div className="outer-hex">
-                    <a href="#resume"><li className="inner-hex hex4">Resume</li></a>
+                <div className="hex-shadow">
+                    <div className="outer-hex">
+                        <a href="#resume"><li className="inner-hex hex4">Resume</li></a>
+                    </div>
                 </div>
-                <div className="outer-hex">
-                    <a href="#links"><li className="inner-hex hex5">Links</li></a>
+                <div className="hex-shadow">
+                    <div className="outer-hex">
+                        <a href="#links"><li className="inner-hex hex5">Links</li></a>
+                    </div>
                 </div>
             </ul>
         </nav>
