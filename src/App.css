@@ -267,7 +267,7 @@ h2, p {
     max-width: 48px;
 }
 
-/* Makes all projects a single column on smaller mobile devices */
+/* Makes all projects a single column and shrinks the header on smaller mobile devices */
 @media screen and (max-width: 767px) { 
     header {
         width: 100%;
@@ -307,16 +307,22 @@ h2, p {
         align-items: center;
     }
 
+    h1 {
+        height: 125px;
+    }
+
     .outer-hex {
-        height: 150px;
+        height: 75px;
         width: 150px;
+        clip-path: polygon(5% 5%, 95% 5%, 95% 95%, 5% 95%);
     }
 
     .inner-hex {
-        height: 125px;
+        height: 50px;
         width: 125px;
         top: 12px;
         left: 0px;
+        clip-path: none;
     }
 
     .aboutMe, .portfolio, .contactForm, .resume, .links {
