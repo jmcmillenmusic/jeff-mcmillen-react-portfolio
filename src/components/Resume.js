@@ -1,13 +1,13 @@
 // Imports React, the resume icon, and the resume
 import React from "react";
 import img from "../images/resume-icon.png";
-import resume from "../files/McMillen_Jeff_WebDev_Resume_v.4.0.1.pdf";
+import resume from "../files/McMillen_Jeff_WebDev_Resume_v.4.2.pdf";
 
 // Establishes arrangement of HTML for Resume component complete with a list of skills and a link to download the resume
 function Resume() {
     return (
         <section className="resume" id="resume">
-            <a href="../files/McMillen_Jeff_WebDev_Resume_v.4.0.1.pdf" download={resume} target="_blank"><img src={img} alt="Icon for a resume" className="resumeIcon border1"></img></a>
+            <a href="../files/McMillen_Jeff_WebDev_Resume_v.4.2.pdf" download={resume} target="_blank"><img src={img} alt="Icon for a resume" className="resumeIcon border1"></img></a>
             <div className="skills">
                 <h2 className="hex4 border1">
                     Resume
