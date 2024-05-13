@@ -7,7 +7,7 @@ import resume from "../files/McMillen_Jeff_WebDev_Resume.pdf";
 function Resume() {
     return (
         <section className="resume" id="resume">
-            <a href="../files/McMillen_Jeff_WebDev_Resume.pdf" download={resume}><img src={img} alt="Icon for a resume" className="resumeIcon border1"></img></a>
+            <a href={resume} download="McMillen_Jeff_WebDev_Resume.pdf"><img src={img} alt="Icon for a resume" className="resumeIcon border1"></img></a>
             <div className="skills">
                 <h2 className="hex4 border1">
                     Resume
