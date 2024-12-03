@@ -13,7 +13,8 @@ function Resume() {
                     Resume
                 </h2>
                 <p className="hex4 border1">
-                    <em>Skills: Hypertext Markup Language (HTML5), Cascading Style Sheets (CSS3), JavaScript, GitHub, jQuery, Bootstrap, Bulma, Application Programming Interfaces (APIs), Node.js, Express.js, Insomnia, Object-Oriented Programming (OOP), Jest, Inquirer, Object-Relational Mapping (ORM), RESTful APIs, Structured Query Language (SQL), MySQL, Sequelize.js, Handlebars.js, Model-View-Controller (MVC) Architecture, ESLint, MongoDB, Progressive Web Applications (PWAs), React.js, Apollo GraphQL</em>
+                    <em>Skills: Hypertext Markup Language (HTML5), Cascading Style Sheets (CSS3), JavaScript, GitHub, jQuery, Bootstrap, Bulma, Application Programming Interfaces (APIs), Node.js, Express.js, Insomnia, Object-Oriented Programming (OOP), Jest, Inquirer, Object-Relational Mapping (ORM), RESTful APIs, Structured Query Language (SQL), MySQL, Sequelize.js, Handlebars.js, Model-View-Controller (MVC) Architecture, ESLint, MongoDB, Progressive Web Applications (PWAs), React.js, Apollo GraphQL, Python, Django, Docker   
+                    </em>
                 </p>
             </div>
         </section>

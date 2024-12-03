@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jeff-mcmillen-react-portfolio/static/css/main.60819348.css",
-    "main.js": "/jeff-mcmillen-react-portfolio/static/js/main.8103b9e2.js",
+    "main.js": "/jeff-mcmillen-react-portfolio/static/js/main.bf7761b4.js",
     "static/media/Jeff+Headshot_-001.jpg": "/jeff-mcmillen-react-portfolio/static/media/Jeff+Headshot_-001.7302748799aeb5d85a23.jpg",
     "static/media/emp-tracker.png": "/jeff-mcmillen-react-portfolio/static/media/emp-tracker.6dac1fbe80839da29a6d.png",
     "static/media/social-network-api.png": "/jeff-mcmillen-react-portfolio/static/media/social-network-api.67d5d147524af28d1df1.png",
@@ -12,10 +12,10 @@
     "static/media/resume-icon.png": "/jeff-mcmillen-react-portfolio/static/media/resume-icon.92927870b2601a4a340c.png",
     "index.html": "/jeff-mcmillen-react-portfolio/index.html",
     "main.60819348.css.map": "/jeff-mcmillen-react-portfolio/static/css/main.60819348.css.map",
-    "main.8103b9e2.js.map": "/jeff-mcmillen-react-portfolio/static/js/main.8103b9e2.js.map"
+    "main.bf7761b4.js.map": "/jeff-mcmillen-react-portfolio/static/js/main.bf7761b4.js.map"
   },
   "entrypoints": [
     "static/css/main.60819348.css",
-    "static/js/main.8103b9e2.js"
+    "static/js/main.bf7761b4.js"
   ]
 }
