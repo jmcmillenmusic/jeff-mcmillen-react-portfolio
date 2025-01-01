@@ -21,7 +21,7 @@ function Portfolio() {
                     <img src={projImg1} alt="Supercomputer server room with TACC logo in the middle" className="hex2 border1 screenshot"></img>
                     <p className="hex2 border1">Repository for TACC's Core Portal system where I am currently contributing to the development and improvement of portal functionality to grant researchers access to high-powered computers
                     <br /><br />
-                    <em>Technologies Utilized: Python, Django, Docker, React, JavaScript</em>
+                    <em>Technologies Utilized: Python, Django, Docker, React, JavaScript, TypeScript</em>
                     <br /><br />
                     <a href="https://github.com/TACC/Core-Portal/pulls?q=is%3Apr+author%3Ajmcmillenmusic+" target="_blank" rel="noopener noreferrer">
                         <img src={github} alt="Blue circle GitHub Logo" className="icon"/>
@@ -37,7 +37,7 @@ function Portfolio() {
                     <img src={projImg1} alt="Supercomputer server room with TACC logo in the middle" className="hex2 border1 screenshot"></img>
                     <p className="hex2 border1">Repository for TACC's Core Custom Content Management System where I am developing new features and improvement of functionality of the All-Payor Claims Database in conjunction with UTHealth Houston's School of Public Health
                     <br /><br />
-                    <em>Technologies Utilized: Python, Django, Docker, React, JavaScript</em>
+                    <em>Technologies Utilized: Python, Django, Docker, React, JavaScript, TypeScript</em>
                     <br /><br />
                     <a href="https://github.com/TACC/Core-CMS-Custom/pulls?q=is%3Apr+author%3Ajmcmillenmusic" target="_blank" rel="noopener noreferrer">
                         <img src={github} alt="Blue circle GitHub Logo" className="icon"/>
@@ -45,7 +45,7 @@ function Portfolio() {
                     </p>
                 </div>
                 <div className="projectCard">
-                    <a href="https://jeff-mcmillen-tech-blog-f37a90b6c5d9.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://jeff-mcmillen-mvc-tech-blog-cc9ecc03de3e.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                         <h3 className="hex2 border1">
                             MVC Tech Blog
                         </h3>
