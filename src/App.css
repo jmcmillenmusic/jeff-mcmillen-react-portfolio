@@ -8,7 +8,7 @@
 
 /* Sets the background color to the whole page */
 body {
-    background-color: #74bee3;
+    background-color: #001933;
     height: 100vh;
 }
 
@@ -21,7 +21,7 @@ header {
     align-content: center;
 }
 
-/* Styles the h1 in the style of the Settlers of Catan box and adds a shadow*/
+/* Styles the h1 and adds a shadow*/
 h1 {
     display: flex;
     align-items: center;
@@ -29,12 +29,11 @@ h1 {
     width: 400px;
     height: 200px;
     font-size: 48px;
-    color: #fdcc06;
-    background-color: #bd202b;
-    box-shadow: 10px 10px 5px black;
+    background-color: #00666C;
+    box-shadow: 10px 10px 5px #003F4F;
 }
 
-/* Styles the navigation links to have room for the hexes around them */
+/* Styles the navigation links to have room for the parallelograms */
 nav {
     display: flex;
 }
@@ -42,7 +41,6 @@ nav {
 nav ul {
     width: 1000px;
     align-self: center;
-    justify-content: space-evenly;
     height: 100%;
 }   
 
@@ -56,55 +54,39 @@ nav li {
     font-size: 24px;
     font-weight: bold;
     text-decoration: underline;
+    color: #00FF80;
 }
 
-/* Styles the outer-hex (border), the inner hex, and the hex-shadow for each of the navigation links */
-.outer-hex {
-    background: #f3cc75;
+/* Styles all parallelograms for each of the navigation links */
+.parallelogram-container {
+    filter: drop-shadow(10px 10px 5px #003F4F);
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+}
+
+.outer-parallelogram {
+    background: #00B2A4;
     height: 200px;
     width: 200px;
-    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
 
-.inner-hex {
-    position: relative;
-    width: 180px;
-    height: 180px;
-    top: 10px;
-    left: 10px;
-    clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+.inner-parallelogram {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(30% 5%, 92.5% 5%, 70% 95%, 7.5% 95%);
     z-index: -1;
+    background: #00666C;
 }
 
-.hex-shadow {
-    filter: drop-shadow(10px 10px 5px black);
-    display: inline-flex;
+.inner-parallelogram a {
+    color: #00FF80;
 }
 
-/* Sets the colors for all 5 hexes */
-.hex1 {
-    background: #859d3b;
-    color: #39553c;
-}
-
-.hex2 {
-    background: #39553c;
-    color: #f2ae4b;
-}
-
-.hex3 {
-    background: #a67149;
-    color: #39553c;
-}
-
-.hex4 {
-    background: #f2ae4b;
-    color: #39553c;
-}
-
-.hex5 {
-    background: #827d69;
-    color: #f2ae4b;
+.inner-parallelogram a:hover {
+    color: #00FFFF;
 }
 
 /* Spaces out all sections of the website to take up more room and allows the sections to "breathe" and not feel so constricted */
@@ -128,27 +110,26 @@ header {
     float: left;
     margin-left: 15%;
     border-radius: 20px;
-    box-shadow: 10px 10px 5px black;
+    box-shadow: 10px 10px 5px #003F4F;
 }
 
 /* Sizes the bio and skills sub-sections to allow room for the headshot and resume icon and adds shadows to them */
 .bio, .skills {
     margin-left: 35%;
     margin-right: 15%;
-    box-shadow: 10px 10px 5px black;
+    box-shadow: 10px 10px 5px #003F4F;
+    background: #00666C;
 }
 
 /* Styles all section titles */
 h2 {
     font-size: 36px;
-    font-weight: bold;
     text-align: center;
 }
 
-/* Styles all paragraph elements for legibility*/
+/* Styles all paragraph elements for legibility */
 p {
     font-size: 24px;
-    font-weight: bold;
 }
 
 /* Gives the section titles and paragraphs more room */
@@ -158,13 +139,13 @@ h2, p {
 
 /* Styles the "card" containing the headshot */
 .card {
-    box-shadow: 10px 10px 5px black;
+    box-shadow: 10px 10px 5px #003F4F;
     transition: 0.3s;
     border-radius: 5px;
 }
   
 .card:hover {
-    box-shadow: 20px 20px 10px black;
+    box-shadow: 20px 20px 10px #003F4F;
 }
 
 .container {
@@ -172,23 +153,24 @@ h2, p {
 }
 
 .border1 {
-    border: 5px solid #f3cc75;
+    border: 5px solid #00B2A4;
 }
 
 /* Colors the links in the About Me section */
 .aboutMe a {
-    color: #fdcc06;
+    color: #00FF80;
 }
 
 .aboutMe a:hover {
-    color: #bd202b;
+    color: #00FFFF;
 }
 
 /* Sets the width of all sections except for About Me and Resume and adds shadows */
 .portfolio h2, .contactForm, .links {
     width: 70%;
     margin: 0 15%;
-    box-shadow: 10px 10px 5px black;
+    box-shadow: 10px 10px 5px #003F4F;
+    background: #00666C;
 }
 
 /* Allows the projects to wrap in rows */
@@ -217,20 +199,25 @@ h2, p {
     text-align: center;
     padding: 35px;
     margin-bottom: 15px;
+    background: #00666C;
 }
 
 /* Sets color of underlined project names*/
 .projectCard a {
-    color: #fdcc06;
+    color: #00FF80;
 }
 
 .projectCard a:hover {
-    color: #bd202b;
+    color: #00FFFF;
 }
 
 /* Adds a shadow to all project cards */
 .screenshot, .projectCard h3, .projectCard p {
-    box-shadow: 10px 10px 5px black;
+    box-shadow: 10px 10px 5px #003F4F;
+}
+
+.projectCard p {
+    background: #00666C;
 }
 
 /* Resizes the GitHub icon in the project cards */
@@ -246,8 +233,8 @@ h2, p {
 
 /* Colors the resume icon border and enlarges the shadow when the user hovers over it */
 .resumeIcon:hover {
-    border: 5px solid #bd202b;
-    box-shadow: 20px 20px 10px black;
+    border: 5px solid #00B2A4;
+    box-shadow: 20px 20px 10px #003F4F;
     transition: 0.3s;
 }
 
@@ -265,6 +252,11 @@ h2, p {
 
 .extLinks img {
     max-width: 48px;
+}
+
+/* Colors all non-link text */
+h1, h2, p {
+    color: #00FFDD;
 }
 
 /* Makes all projects a single column and shrinks the header on smaller mobile devices */
@@ -305,24 +297,25 @@ h2, p {
         align-self: center;
         justify-content: center;
         align-items: center;
+        margin-bottom: 10px;
     }
 
     h1 {
         height: 125px;
     }
 
-    .outer-hex {
+    .outer-parallelogram {
         height: 75px;
         width: 150px;
-        clip-path: polygon(5% 5%, 95% 5%, 95% 95%, 5% 95%);
+        clip-path: polygon(10% 5%, 95% 5%, 90% 95%, 5% 95%);
     }
 
-    .inner-hex {
+    .inner-parallelogram {
         height: 50px;
         width: 125px;
         top: 12px;
-        left: 0px;
-        clip-path: none;
+        left: 12px;
+        clip-path: polygon(10% 5%, 95% 5%, 90% 95%, 5% 95%);
     }
 
     .aboutMe, .portfolio, .contactForm, .resume, .links {
@@ -361,7 +354,7 @@ h2, p {
     }
 }
 
-/* Reduces margin for headshot, resumeIcon, bio, and skills with larger screens  */
+/* Reduces margin for headshot, resumeIcon, bio, and skills as well as adds a bottom margin for name with larger screens  */
 @media screen and (min-width: 1025px) and (max-width: 1500px) {
     .headshot, .resumeIcon {
         margin-left: 5%;
@@ -369,5 +362,9 @@ h2, p {
 
     .bio, .skills {
         margin-right: 5%;
+    }
+
+    .name {
+        margin-bottom: 10px;
     }
 }
