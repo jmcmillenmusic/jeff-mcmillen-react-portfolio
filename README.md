@@ -11,7 +11,7 @@ https://jmcmillenmusic.github.io/jeff-mcmillen-react-portfolio/
 
 ## Usage
 
-Click on any of the links at the top (hexes) to access each of the sections. In the Portfolio section, click on any of the pictures to see that project in a new tab. Click on the Resume Icon in the Resume section to download a copy of my resume. 
+Click on any of the links at the top to access each of the sections. In the Portfolio section, click on any of the pictures to see that project in a new tab. Click on the Resume Icon in the Resume section to download a copy of my resume. 
 
 ![screenshot](./src/images/screenshot_v2.png)
 

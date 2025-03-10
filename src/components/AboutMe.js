@@ -12,7 +12,7 @@ function AboutMe() {
                     About Me
                 </h2>
                 <p className="border1">
-                I'm Jeff McMillen, a full-stack web development bootcamp graduate and recent intern at the Texas Advanced Computing Center in Austin, TX. I've equipped myself with these coding skills in order to use technology to solve people's problems. I believe that technology should not hinder our progress but should instead improve our quality of life, and I strive to do exactly that.
+                I'm Jeff McMillen, a full-stack web developer with expertise in software engineering in Austin, TX who brings 10 years of experience in game development as a former technical sound designer and composer. I've equipped myself with these coding skills in order to use technology to solve people's problems. I believe that technology should not hinder our progress but should instead improve our quality of life, and I strive to do exactly that.
                 <br /><br />
                 You can find me on <a href="https://www.linkedin.com/in/jmcmillencode/" target="_blank" rel="noopener noreferrer">LinkedIn</a> and <a href="https://github.com/jmcmillenmusic" target="_blank" rel="noopener noreferrer">GitHub</a>.
                 </p>
