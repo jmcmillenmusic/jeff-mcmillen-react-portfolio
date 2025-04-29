@@ -1,20 +1,51 @@
-// Imports React, the resume icon, and the resume
+// Imports React
 import React from "react";
-import img from "../images/resume-icon.png";
-import resume from "../files/McMillen_Jeff_WebDev_Resume.pdf";
 
-// Establishes arrangement of HTML for Resume component complete with a list of skills and a link to download the resume
+// Establishes arrangement of HTML for Resume component complete with a list of skills categorized by type
 function Resume() {
     return (
         <section className="resume" id="resume">
-            <a href={resume} download="McMillen_Jeff_WebDev_Resume.pdf"><img src={img} alt="Icon for a resume" className="resumeIcon border1"></img></a>
             <div className="skills">
                 <h2 className="border1">
-                    Resume
+                    Technical Skills and Proficiencies
                 </h2>
                 <p className="border1">
-                    <em>Skills: Hypertext Markup Language (HTML5), Cascading Style Sheets (CSS3), JavaScript, GitHub, jQuery, Bootstrap, Bulma, Application Programming Interfaces (APIs), Node.js, Express.js, Insomnia, Object-Oriented Programming (OOP), Jest, Inquirer, Object-Relational Mapping (ORM), RESTful APIs, Structured Query Language (SQL), MySQL, Sequelize.js, Handlebars.js, Model-View-Controller (MVC) Architecture, ESLint, MongoDB, Progressive Web Applications (PWAs), React.js, Apollo GraphQL, Python, Django, Docker, Vite, TypeScript
-                    </em>
+                    <u>Primary Languages</u>:
+                    JavaScript | jQuery | TypeScript | Python
+                    <br /><br />
+                    <u>Web Elements</u>:
+                    Hypertext Markup Language (HTML5) | Cascading Style Sheets (CSS3)
+                    <br /><br />
+                    <u>CSS Frameworks</u>:
+                    Bootstrap | Bulma
+                    <br /><br />
+                    <u>Development Tools</u>:
+                    GitHub | Jira | Confluence
+                    <br /><br />
+                    <u>Data Routing & Route Testing</u>:
+                    Application Programming Interfaces (APIs) | RESTful APIs | Insomnia
+                    <br /><br />
+                    <u>Programming Concepts</u>:
+                    Object-Oriented Programming (OOP) | Object-Relational Mapping (ORM) | Model-View-Controller (MVC) Architecture
+                    <br /><br />
+                    <u>Middleware/Full-Stack Tools</u>:
+                    Node.js | Express.js | Inquirer | Django
+                    <br /><br />
+                    <u>Databases</u>:
+                    Structured Query Language (SQL) | MySQL | Sequelize.js | MongoDB | Apollo GraphQL
+                    <br /><br />
+                    <u>Front-End Frameworks</u>:
+                    React | Handlebars.js
+                    <br /><br />
+                    <u>Code Quality & Testing</u>:
+                    ESLint | Jest | Vite
+                    <br /><br />
+                    <u>App Development</u>:
+                    Progressive Web Applications (PWAs)
+                    <br /><br />
+                    <u>Containerization</u>:
+                    Docker
+                    <br /><br />
                 </p>
             </div>
         </section>
