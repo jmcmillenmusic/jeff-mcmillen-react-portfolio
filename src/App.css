@@ -81,12 +81,11 @@ nav li {
     background: #00666C;
 }
 
-.inner-parallelogram a {
+.outer-parallelogram a {
     color: #00FF80;
-}
-
-.inner-parallelogram a:hover {
-    color: #00FFFF;
+    :hover {
+        color: #00FFFF;
+    }
 }
 
 /* Spaces out all sections of the website to take up more room and allows the sections to "breathe" and not feel so constricted */
@@ -104,7 +103,7 @@ header {
 }
 
 /* Sets the size, placement, rounded corners, and shadows for the headshot and resume icon */
-.headshot, .resumeIcon {
+.headshot {
     width: 300px;
     height: 375px;
     float: left;
@@ -114,7 +113,7 @@ header {
 }
 
 /* Sizes the bio and skills sub-sections to allow room for the headshot and resume icon and adds shadows to them */
-.bio, .skills {
+.bio {
     margin-left: 35%;
     margin-right: 15%;
     box-shadow: 10px 10px 5px #003F4F;
@@ -166,7 +165,7 @@ h2, p {
 }
 
 /* Sets the width of all sections except for About Me and Resume and adds shadows */
-.portfolio h2, .contactForm, .links {
+.portfolio h2, .contactForm, .skills, .links {
     width: 70%;
     margin: 0 15%;
     box-shadow: 10px 10px 5px #003F4F;
@@ -229,13 +228,6 @@ h2, p {
 /* Centers the text in the Contact section */
 .contactInfo p {
     text-align: center;
-}
-
-/* Colors the resume icon border and enlarges the shadow when the user hovers over it */
-.resumeIcon:hover {
-    border: 5px solid #00B2A4;
-    box-shadow: 20px 20px 10px #003F4F;
-    transition: 0.3s;
 }
 
 /* Centers the text in the Links section with their icons */
@@ -328,7 +320,7 @@ h1, h2, p {
         height: fit-content;
     }
 
-    .headshot, .resumeIcon {
+    .headshot {
         margin: 20px auto;
     }
 
@@ -348,19 +340,15 @@ h1, h2, p {
         width: 85%;
         margin: auto;
     }
-    
-    .resumeIcon {
-        float: none;
-    }
 }
 
-/* Reduces margin for headshot, resumeIcon, bio, and skills as well as adds a bottom margin for name with larger screens  */
+/* Reduces margin for headshot and bio as well as adds a bottom margin for name with larger screens */
 @media screen and (min-width: 1025px) and (max-width: 1500px) {
-    .headshot, .resumeIcon {
+    .headshot {
         margin-left: 5%;
     }
 
-    .bio, .skills {
+    .bio {
         margin-right: 5%;
     }
 
